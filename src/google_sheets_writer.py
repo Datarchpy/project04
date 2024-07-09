@@ -1,8 +1,9 @@
 """
-取得したデータをGoogle Sheetsに書き込むスクリプトです。
+File: google_sheets_writer.py
+このスクリプトは、取得したデータをGoogle Sheetsに書き込むスクリプトです。
 機能:
-Google Sheets APIを使用してデータを書き込む
-データの整形とシートへの書き込み処理
+    1.Google Sheets APIを使用してデータを書き込む
+    2.データの整形とシートへの書き込み処理
 """
 import os
 import gspread
