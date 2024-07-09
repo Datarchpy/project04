@@ -1,8 +1,9 @@
 """
-Slack APIからデータを取得するスクリプトです。
+File: slack_data_fetcher.py
+このスクリプトは、Slack APIからデータを取得するスクリプトです。
 機能:
-Slack APIを使用してメッセージとリアクションのデータを取得
-必要なデータ形式に整形
+    1.Slack APIを使用してメッセージとリアクションのデータを取得
+    2.必要なデータ形式に整形
 """
 import os
 from slack_sdk import WebClient
